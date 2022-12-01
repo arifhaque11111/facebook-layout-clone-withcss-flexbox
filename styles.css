@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-color {
+    background-color:#18191A;
+}
+
+ul {
+    list-style-type: none;
+}
+.container {
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px;   
+}
+
+.container-1 {
+    display: flex;
+    flex-basis: 25%;
+    /* background-color: aqua ; */
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    border-radius: 40%;
+}
+
+.search-input {
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgb(60, 58, 58);
+    border: none;
+    outline: none;   
+}
+
+.search-input:focus {
+    transform: scaleX(1.6);
+    transition: all 0.5s;
+}
+
+.container-2 {
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-evenly;
+    /* background-color: aqua ; */
+    align-items: center;
+
+
+}
+
+.container-3 {
+    display: flex;
+   flex-basis: 25%;
+   justify-content:flex-end;
+   /* background-color: aqua ; */
+   align-items: center;
+}
+
+.container-3 li {
+    margin-right: 10px;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.leftbar-item {
+    display: flex;
+    /* margin-bottom: 10px; */
+    align-items: center;
+    padding: 15px;
+
+}
+
+.small-logo {
+    width: 30px;
+    border-radius: 40px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}
+
+.layout-1 {
+    flex-basis: 25%;
+    color: aliceblue;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+
+.layout-2 {
+    /* display: flex; */
+    flex-basis: 40%;
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    color: aliceblue;
+    /* background-color: aqua; */
+}
+
+.layout-2-first-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* margin-right: 50px; */
+}
+
+.layout-3 {
+    /* display: flex; */
+    flex-basis: 25%;
+    /* background-color: aqua; */
+    color: aliceblue;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.leftbar-item:hover {
+    background-color:rgb(60, 58, 58);
+    /* padding-left: 5px; */
+    border-radius: 15px;
+    /* transform: tran; */
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.first-hr {
+    width: 90%;
+    background-color: red
+}
+
+.stories {
+    display: flex;
+}
+.stories-item {
+    flex-basis: 22%;
+}
+.picture {
+    width: 95%;
+    height: 100%;
+}
+
+.about_me {
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.my-mind {
+    margin-left: 20px;
+    width: 100%;
+    background-color:rgb(60, 58, 58);
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.my-mind:hover {
+    transform: scaleX(1.2);
+    transition: all 1s;
+}
+
+.my-activity {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding: 10px;
+   
+}
+
+.all-activity {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.active-person {
+    margin-bottom: 10px;
+}
+
+.shamim {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+.shamim-1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.like-comment {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.comment {
+    margin-left: 350px;
+}
+
+.audience {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.etc {
+    background-color:#3A3B3C ;
+    color:#76787A;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: larger;
+}
+
+.etc:hover {
+    transition: all 0.5s;
+    background-color: aqua;
+}
+
+.view-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.element-2 {
+    display: flex;
+    padding: 15px;
+}
+
+.element-3 {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.element-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-right: 300px;
+    margin-left: 50px;
+}
+
+.element-5 {
+    display: flex;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.element-6 {
+    margin-left: 5px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.element-7 {
+    margin-left: 50px;
+}
